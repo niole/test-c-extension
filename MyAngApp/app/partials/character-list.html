@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-md-2">
+      <h3>look for a character:</h3>
+      <select ng-model="query">
+        <option value="Don">Don</option>
+        <option value="Peggy">Peggy</option>
+        <option value="Joan">Joan</option>
+        <option value="Betty">Betty</option>
+      </select>
+    </div>
+
+    <div class="tweetContainer">
+      <div class="tweetDisplay container-fluid">
+        <h2 class="list-animations" ng-click="setTweet(index+1)">{{displayTweet}}</h2>
+      </div>
+    </div>
+
+    <ul class="mentions">
+      <li class="list-animations" ng-repeat="character in ['Don','Peggy','Joan','Betty'] | filter:query">
+        <a href="#/mentions/{{character}}" class="thumb"><img style="max-height:101px; max-width:100px" ng-src="img/cast/mad-men-1024x768.jpg"/></a>
+        <a href="#/mentions/{{character}}">{{character}}</a>
+      </li>
+    </ul>
+
+  </div>
+</div>

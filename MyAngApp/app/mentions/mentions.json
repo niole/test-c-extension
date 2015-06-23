@@ -1,0 +1,22 @@
+[
+  {"user": "Nexus S",
+   "character":"Betty",
+    "id":"1",
+    "pic":"img/cast/mad-men-1024x768.jpg",
+   "tweet": "Fast just got faster with Nexus S Betty 0."},
+  {"user": "Motorola XOOM™ with Wi-Fi Joan",
+   "character":"Don",
+   "id":"2",
+   "pic":"img/cast/mad-men-1024x768.jpg",
+   "tweet": "The Next, Next Generation Don tablet 1."},
+  {"user": "Motorola XOOM™ with Wi-Fi Joan",
+   "character":"Joan",
+   "id":"3",
+   "pic":"img/cast/mad-men-1024x768.jpg",
+   "tweet": "The Next, Next Generation Don tablet 2."},
+  {"user": "MOTOROLA XOOM™",
+   "character":"Peggy",
+   "id":"4",
+   "pic":"img/cast/mad-men-1024x768.jpg",
+   "tweet": "The Next, Next Generation Peggy tablet 3."}
+]
