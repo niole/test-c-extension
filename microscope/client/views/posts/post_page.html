@@ -1,0 +1,13 @@
+<template name="postPage">
+    <div>
+      <span><h1>{{title}}</h1><h2>{{author}}</h2></span>
+    </div>
+    comment:
+    <textarea width="70%" height="25%"></textarea>
+    <input type="submit">
+    <div>
+      {{#each comments}}
+      <p>{{this}}</p>
+      {{/each}}
+    </div>
+</template>
